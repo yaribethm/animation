@@ -1,0 +1,117 @@
+<!doctype html>
+<html class="no-js" lang="en" dir="ltr">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Animation</title>
+  <link rel="stylesheet" href="css/foundation.css">
+  <link rel="stylesheet" href="css/app.css">
+  <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro" rel="stylesheet">
+
+  <style>
+  body{background-color: #000000;
+  }
+  h1{color:#ffffff;
+  font-family: 'Source Sans Pro', sans-serif;
+padding: 20%;}
+  span{color:#f4f00c;
+    font-family: 'Source Sans Pro', sans-serif; }
+
+.dropbtn {
+    background-color: #f4f00c;
+    color: #000000;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {background-color:  #f4f00c;}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown:hover .dropbtn {
+    background-color: #3e8e41;
+}
+.hi {
+    width: 200px;
+    height: 240px;
+    background-image: url("limon-1.png");
+
+    -webkit-animation: play 4s steps(9) infinite;
+       -moz-animation: play 4s steps(9) infinite;
+        -ms-animation: play 4s steps(9) infinite;
+         -o-animation: play 4s steps(9) infinite;
+            animation: play 4s steps(9) infinite;
+}
+@-webkit-keyframes play {
+   from { background-position:    0px; }
+     to { background-position: -1900px; }
+}
+
+@-moz-keyframes play {
+   from { background-position:    0px; }
+     to { background-position: -1900px; }
+}
+
+@-ms-keyframes play {
+   from { background-position:    0px; }
+     to { background-position: -1900px; }
+}
+
+@-o-keyframes play {
+   from { background-position:    0px; }
+     to { background-position: -1900px; }
+}
+
+@keyframes play {
+   from { background-position:    0px; }
+     to { background-position: -1900px; }
+}
+
+  </style>
+</head>
+<body>
+  <div class="dropdown">
+    <button class="dropbtn">Lemonade</button>
+    <div class="dropdown-content">
+      <a href="running.html">Lyric 1</a>
+      <a href="sneezed.html">Lyric 2</a>
+      <a href="ashes.html">Lyric 3</a>
+    </div>
+  </div>
+<h1>When life gives you<span> lemons</span>...<br>you make <span> lemonade</span><div class="hi"></div> </h1>
+
+
+
+
+
+
+
+
+</body>
+</html>

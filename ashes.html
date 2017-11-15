@@ -1,0 +1,88 @@
+<!doctype html>
+<html class="no-js" lang="en" dir="ltr">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Animation</title>
+  <link rel="stylesheet" href="css/foundation.css">
+  <link rel="stylesheet" href="css/app.css">
+  <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro" rel="stylesheet">
+
+  <style>
+  body{background-color: #000000;
+  }
+  h1{color:#ffffff;
+  font-family: 'Source Sans Pro', sans-serif;
+padding: 20%;
+}
+
+
+.dropbtn {
+    background-color:#f4f00c;
+    color: #000000;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {background-color: #f4f00c;}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown:hover .dropbtn {
+    background-color: #3e8e41;
+}
+.crazy{color:#f4f00c;-webkit-transition: width 2s, height 2s, -webkit-transform 2s; /* Safari */
+    transition: width 2s, height 2s, transform 2s;
+  animation-iteration-count: }
+    .crazy:hover {
+      -webkit-transform: rotate(360deg); /* Safari */
+      transform: rotate(360deg);}
+  </style>
+</head>
+<body>
+  <div class="dropdown">
+    <button class="dropbtn">Lemonade</button>
+    <div class="dropdown-content">
+        <a href="index.html">Home</a>
+      <a href="running.html">Lyric 1</a>
+      <a href="sneezed.html">Lyric 2</a>
+      <a href="ashes.html">Lyric 3</a>
+    </div>
+  </div>
+<h1>"Whats worse lookin Jealous or<div class="crazy">Crazy</div>? Jealous or <div class="crazy">Crazy</div>?"</h1>
+
+
+
+
+
+
+
+
+</body>
+</html>
